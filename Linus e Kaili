@@ -1,0 +1,253 @@
+using System;
+
+namespace trabalho
+{
+    class Program
+    {
+        private const bool V = true;
+        private static int resposta;
+
+        /// <summary>
+        /// alunos: Kaili Portella Caetano e Linus Dantas 2º período de Design de games 
+        /// não conseguimos terminar a tempo, eu (kaili) estou com meu notebook morrendo e não foi possivel terminar em aula.Faltou a contagem de acertos. 
+        /// Esse quiz foi feito para crianças aprederem matemática. 
+        /// </summary>
+        /// <param name="args"></param>
+        static void Main(string[] args)
+        {
+
+            while (V)
+            {
+                Console.WriteLine("Quiz dos patinhos");
+                Console.WriteLine("Caso queira começar , pressione a tecla <enter>, após responder o número da resposta tecle enter para ir para a próxima pergunta ");
+
+
+                while (Console.ReadKey().Key != ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                    Console.Write("Você pressionou a tecla errada. Pressione novamente");
+                }
+                Console.WriteLine("Pergunta 1");
+                Console.WriteLine("Tinha 10 patinhos, mas 5 sumiram. Quantos patinhos sobraram?");
+                Console.WriteLine("<1> 5 patinhos");
+                Console.WriteLine("<2> 6 patinhos");
+                Console.WriteLine("<3> 4 patinhos");
+
+
+
+                resposta = Convert.ToInt32(Console.ReadLine());
+
+                int numerodeAcertos = 0;
+                int numerodeErros = 0;
+                if (resposta == 1)
+                {
+                    numerodeAcertos++;
+                }
+                else
+                {
+                    numerodeErros++;
+                }
+                Console.WriteLine("Para a próxima pergunta , pressione a tecla <enter>");
+                while (Console.ReadKey().Key != ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                    Console.Write("Você pressionou a tecla errada. Pressione novamente");
+                }
+                Console.WriteLine("Pergunta 2");
+                Console.WriteLine("Tinha 15 patinhos, mas a mamãe patinho foi dar banho em 6 patinhos. Quantos patinhos sobraram?");
+                Console.WriteLine("<1> 10 patinhos");
+                Console.WriteLine("<2> 9 patinhos");
+                Console.WriteLine("<3> 11 patinhos");
+
+                resposta = Convert.ToInt32(Console.ReadLine());
+
+
+
+                if (resposta == 1)
+                {
+                    numerodeAcertos++;
+                }
+                else
+                {
+                    numerodeErros++;
+                }
+
+
+
+
+
+                Console.WriteLine("Para a próxima pergunta , pressione a tecla <enter>");
+                while (Console.ReadKey().Key != ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                    Console.Write("Você pressionou a tecla errada. Pressione novamente");
+                }
+
+                Console.WriteLine("Pergunta 3");
+                Console.WriteLine("Tinha 22 patinhos, mas a mamãe patinho brincar com 2 patinhos. Quantos patinhos sobraram?");
+                Console.WriteLine("<1> 24 patinhos");
+                Console.WriteLine("<2> 19 patinhos");
+                Console.WriteLine("<3> 20 patinhos");
+
+                resposta = Convert.ToInt32(Console.ReadLine());
+
+
+                if (resposta == 1)
+                {
+                    numerodeAcertos++;
+                }
+                else
+                {
+                    numerodeErros++;
+                }
+
+
+
+
+
+                Console.WriteLine("Para a próxima pergunta , pressione a tecla <enter>");
+                while (Console.ReadKey().Key != ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                    Console.Write("Você pressionou a tecla errada. Pressione novamente");
+                }
+                Console.WriteLine("Pergunta 4");
+                Console.WriteLine("Tinha 3 patinhos, mas 1 patinho se perdeu. Quantos patinhos sobraram?");
+                Console.WriteLine("<1> 2 patinhos");
+                Console.WriteLine("<2> 5 patinhos");
+                Console.WriteLine("<3> 3 patinhos");
+
+                resposta = Convert.ToInt32(Console.ReadLine());
+
+
+                if (resposta == 1)
+                {
+                    numerodeAcertos++;
+                }
+                else
+                {
+                    numerodeErros++;
+                }
+
+
+
+                Console.WriteLine("Para a próxima pergunta , pressione a tecla <enter>");
+                while (Console.ReadKey().Key != ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                    Console.Write("Você pressionou a tecla errada. Pressione novamente");
+                }
+                Console.WriteLine("Pergunta 5");
+                Console.WriteLine("Tinha 14 patinhos, mas 5 foram comer. Quantos patinhos sobraram?");
+                Console.WriteLine("<1> 10 patinhos");
+                Console.WriteLine("<2> 9 patinhos");
+                Console.WriteLine("<3> 7 patinhos");
+
+                resposta = Convert.ToInt32(Console.ReadLine());
+
+
+                if (resposta == 1)
+                {
+                    numerodeAcertos++;
+                }
+                else
+                {
+                    numerodeErros++;
+
+                }
+
+
+
+
+
+
+
+                Console.WriteLine("Para a próxima pergunta , pressione a tecla <enter>");
+                while (Console.ReadKey().Key != ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                    Console.Write("Você pressionou a tecla errada. Pressione novamente");
+
+                }
+
+
+                Console.WriteLine("Pergunta 6");
+                Console.WriteLine("Tinha 8 patinhos, mas 5 foram nadar. Quantos patinhos sobraram?");
+                Console.WriteLine("<1> 5 patinhos");
+                Console.WriteLine("<2> 9 patinhos");
+                Console.WriteLine("<3> 3 patinhos");
+
+                resposta = Convert.ToInt32(Console.ReadLine());
+
+
+                if (resposta == 1)
+                {
+                    numerodeAcertos++;
+                }
+                else
+                {
+                    numerodeErros++;
+                }
+
+                Console.WriteLine("Para a próxima pergunta , pressione a tecla <enter>");
+                while (Console.ReadKey().Key != ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                    Console.Write("Você pressionou a tecla errada. Pressione novamente");
+                }
+                Console.WriteLine("Pergunta 7");
+                Console.WriteLine("Tinha 16 patinhos, mas 8 foram dormir. Quantos patinhos sobraram?");
+                Console.WriteLine("<1> 8 patinhos");
+                Console.WriteLine("<2> 14 patinhos");
+                Console.WriteLine("<3> 10 patinhos");
+
+                resposta = Convert.ToInt32(Console.ReadLine());
+
+
+                if (resposta == 1)
+                {
+                    numerodeAcertos++;
+                }
+                else
+                {
+                    numerodeErros++;
+                }
+
+                Console.WriteLine("Para a próxima pergunta , pressione a tecla <enter>");
+                while (Console.ReadKey().Key != ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                    Console.Write("Você pressionou a tecla errada. Pressione novamente");
+                }
+                Console.WriteLine("Pergunta 8");
+                Console.WriteLine("Tinha 20 patinhos, mas 10 foram desenhar. Quantos patinhos sobraram?");
+                Console.WriteLine("<1> 9 patinhos");
+                Console.WriteLine("<2> 10 patinhos");
+                Console.WriteLine("<3> 12 patinhos");
+
+
+
+
+                resposta = Convert.ToInt32(Console.ReadLine());
+
+
+                if (resposta == 1)
+                {
+                    numerodeAcertos++;
+                }
+                else
+                {
+                    numerodeErros++;
+                }
+
+
+
+
+
+
+            }
+
+        }
+    }
+
+}
